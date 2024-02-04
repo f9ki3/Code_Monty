@@ -3,15 +3,15 @@
 Welcome to Code Monty, your go-to learning resource for mastering Python programming. Whether you're a beginner or looking to enhance your skills, Code Monty is designed to guide you through the fundamentals of Python programming.
 Table of Contents
 
-Print Function
-Variables
-Data Types
-Operators
-Functions
-Conditional Statements
-Looping
-Library
-Object-Oriented Programming
+    Print Function
+    Variables
+    Data Types
+    Operators
+    Functions
+    Conditional Statements
+    Looping
+    Library
+    Object-Oriented Programming
 
 ## Print Function
 
