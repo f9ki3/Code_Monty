@@ -4,10 +4,10 @@ Welcome to Code Monty, your go-to learning resource for mastering Python program
 
 Table of Contents
 
-- [Print Function](##Print )
-- [Variables](##Variables)
-- [Data Types](##Data)
-- [Operators](##Operators)
+- [Print Function](#Print Function)
+- [Variables](#Variables)
+- [Data Types](#Data)
+- [Operators](#Operators)
 - [Functions](#Functions)
 - [OperatConditional Statementsors](#Conditional)
 - [Looping](#Looping)
