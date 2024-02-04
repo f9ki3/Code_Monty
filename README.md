@@ -2,18 +2,17 @@
 
 Welcome to Code Monty, your go-to learning resource for mastering Python programming. Whether you're a beginner or looking to enhance your skills, Code Monty is designed to guide you through the fundamentals of Python programming.
 
-Table of Contents
+## Table of Contents
 
-- [Print Function](#Print Function)
-- [Variables](#Variables)
-- [Data Types](#Data)
-- [Operators](#Operators)
-- [Functions](#Functions)
-- [OperatConditional Statementsors](#Conditional)
-- [Looping](#Looping)
-- [Library](#Library)
-- [Object-Oriented Programming](#Object-Oriented)
-
+- [Print Function](#print-function)
+- [Variables](#variables)
+- [Data Types](#data-types)
+- [Operators](#operators)
+- [Functions](#functions)
+- [Conditional Statements](#conditional-statements)
+- [Looping](#looping)
+- [Library](#library)
+- [Object-Oriented Programming](#object-oriented-programming)
 
 ## Print Function
 
