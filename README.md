@@ -4,7 +4,7 @@ Welcome to Code Monty, your go-to learning resource for mastering Python program
 
 Table of Contents
 
-- [Print Function](#PrintFunction)
+- [Print Function](#Print Function)
 - [Variables](#Variables)
 - [Data Types](#projects)
 - [Functions](#contact)
@@ -14,7 +14,7 @@ Table of Contents
 - [Object-Oriented Programming](#contact)
 
 
-## PrintFunction
+## Print Function
 
 The print function is a fundamental tool in Python used to display values or data on the console. Learn how to utilize this built-in function effectively.
 
