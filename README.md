@@ -4,8 +4,8 @@ Welcome to Code Monty, your go-to learning resource for mastering Python program
 
 Table of Contents
 
-- [Print Function](##PrintFunction)
-- [Variables](##Variables)
+- [Print Function](#PrintFunction)
+- [Variables](#Variables)
 - [Data Types](#projects)
 - [Functions](#contact)
 - [OperatConditional Statementsors](#contact)
