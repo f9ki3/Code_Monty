@@ -1,19 +1,20 @@
 # Code Monty
 
 Welcome to Code Monty, your go-to learning resource for mastering Python programming. Whether you're a beginner or looking to enhance your skills, Code Monty is designed to guide you through the fundamentals of Python programming.
+
 Table of Contents
 
-    Print Function
-    Variables
-    Data Types
-    Operators
-    Functions
-    Conditional Statements
-    Looping
-    Library
-    Object-Oriented Programming
+- [Print Function](##PrintFunction)
+- [Variables](##Variables)
+- [Data Types](#projects)
+- [Functions](#contact)
+- [OperatConditional Statementsors](#contact)
+- [Looping](#contact)
+- [Library](#contact)
+- [Object-Oriented Programming](#contact)
 
-## Print Function
+
+## PrintFunction
 
 The print function is a fundamental tool in Python used to display values or data on the console. Learn how to utilize this built-in function effectively.
 
