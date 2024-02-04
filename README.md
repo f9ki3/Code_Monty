@@ -4,14 +4,15 @@ Welcome to Code Monty, your go-to learning resource for mastering Python program
 
 Table of Contents
 
-- [Print Function](#Print Function)
+- [Print Function](#Print )
 - [Variables](#Variables)
-- [Data Types](#projects)
-- [Functions](#contact)
-- [OperatConditional Statementsors](#contact)
-- [Looping](#contact)
-- [Library](#contact)
-- [Object-Oriented Programming](#contact)
+- [Data Types](#Data)
+- [Operators](#Operators)
+- [Functions](#Functions)
+- [OperatConditional Statementsors](#Conditional)
+- [Looping](#Looping)
+- [Library](#Library)
+- [Object-Oriented Programming](#Object-Oriented)
 
 
 ## Print Function
