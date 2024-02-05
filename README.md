@@ -3,9 +3,9 @@
 Welcome to Code Monty, your go-to learning resource for mastering Python programming. Whether you're a beginner or looking to enhance your skills, Code Monty is designed to guide you through the fundamentals of Python programming.
 
 ## About the Author
--Name: Fyke Lleva
--Email: floterina@gmail.com
--linkedin: https://www.linkedin.com/in/fykkkie/
+- Name: Fyke Lleva
+- Email: floterina@gmail.com
+- linkedin: https://www.linkedin.com/in/fykkkie/
 
 ## Table of Contents
 
