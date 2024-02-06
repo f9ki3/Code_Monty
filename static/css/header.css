@@ -73,15 +73,18 @@ footer p{
 }
 
 .video{
-    border: 1px solid red;
-    height: 200px;
-    width: 400px;
+    height: 482px;
+    width: auto;
     border-radius: 8px;
 }
 
 .video iframe{
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 8px;
+}
+
+div h3{
+    color: #3b5aa6;
 }

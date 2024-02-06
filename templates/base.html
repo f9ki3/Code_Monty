@@ -34,20 +34,23 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 col-md-6">
+        <hr class="text-secondary mb-5">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-8">
                 <div class="video">
-                    <iframe  src="https://www.youtube.com/embed/tjetD2pFK4A" title="Screensaver Sinth City Green - Looped Animation Background" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/D56_Cx36oGY" title="Youtube API for Python: How to Create a Unique Data Portfolio Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
                 </div>
             </div>
-            <div class="col-6 col-md-6">
-                <h5 class="fw-bolder">Overview of the Course</h5>
-                {% for topic in table_of_content %}
-                    <li>{{topic}}</li>
-                {% endfor %}
+            <div class="col-12 col-md-4">
+                <h3 class="fw-bolder">Course Overview</h3>
+                <ul class="list-group">
+                    {% for topic in table_of_content %}
+                        <li class="list-group-item">{{topic}}</li>
+                    {% endfor %}
+                </ul>
+                <button style="background-color: #3b5aa6;" class="btn btn-primary w-100 mt-4">Join Now!</button>
             </div>
         </div>
-        
 
     </div>
 
