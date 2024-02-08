@@ -18,14 +18,15 @@
             </div>
             <div class="col-6 col-md-6">
                 <div class="text-div1">
-                    <h3 id="animated" class="fw-bolder">"{{banner1}}"</h3>
+                    <h3 class="fw-bolder">"{{banner1}}"</h3>
                 </div>    
             </div>
         </div>
+        
         <div class="row mt-5">
             <div class="col-6 col-md-6">
                 <div class="text-div1">
-                    <h3 id="animated" class="fw-bolder text-end">"{{banner2}}"</h3>
+                    <h3  class="fw-bolder text-end">"{{banner2}}"</h3>
                 </div>    
             </div>
             <div class="col-6 col-md-6">
@@ -34,29 +35,72 @@
                 </div>
             </div>
         </div>
-        <hr class="text-secondary mb-5">
-        <div class="row mt-5 mb-5">
-            <div class="col-12 col-md-8">
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/D56_Cx36oGY" title="Youtube API for Python: How to Create a Unique Data Portfolio Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        <hr class="text-secondary mt-0">
+        <div class="row">
+            <div class="col-12 col-md-6 mt-5">
+                <h3 class="fw-bolder">What is Code Monty?</h3>
+                <p style="text-align: justify;">{{what_is_codemonty}}</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="python">
+                    <img id="animatedP" src="{{url_for('static', filename='img/python.png')}}" alt="">
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+        </div>
+        <hr class="text-secondary mt-0">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-6">
                 <h3 class="fw-bolder">Course Overview</h3>
                 <ul class="list-group">
                     {% for topic in table_of_content %}
-                        <li class="list-group-item">{{topic}}</li>
+                        <li class="list-group-item"><a href=""data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">{{topic}}</a></li>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                          </div>
                     {% endfor %}
                 </ul>
                 <button style="background-color: #3b5aa6;" class="btn btn-primary w-100 mt-4">Join Now!</button>
             </div>
+            <div class="col-12 col-md-6">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/D56_Cx36oGY" title="Youtube API for Python: How to Create a Unique Data Portfolio Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+                </div>
+            </div>
         </div>
-
     </div>
+    
 
 
     {% include 'footer.html' %}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="{{url_for('static', filename='js/navigationbar.js')}}"></script>
+    <script src="{{url_for('static', filename='js/animate.js')}}"></script>
+    <script>
+        // Function to animate the <p> tag
+function animateP() {
+    const pTag = document.getElementById('animatedP');
+    let position = 0;
+
+    // Move the <p> tag from left to right
+    function move() {
+        position += 2; // Adjust the speed by changing this value
+        pTag.style.left = position + 'px';
+
+        // Stop the animation when it reaches the right side of the screen
+        if (position < window.innerWidth - pTag.clientWidth) {
+            requestAnimationFrame(move);
+        }
+        }
+
+        // Start the animation
+        move();
+    }
+
+    // Call the animateP function when the page loads
+    window.onload = animateP;
+    </script>
 </body>
 </html>

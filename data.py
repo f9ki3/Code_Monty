@@ -9,3 +9,6 @@ about_codemonty = "Discover the power of Code Monty, your gateway to the excitin
 
 #table of content
 table_of_content = ["Print Function", "Variables", "Data Types", "Operators", "Functions", "Conditional Statements", "Looping","Library","Object Oriented Programming"]
+
+#what is code monty
+what_is_codemonty = "Code Monty provides a free Python course for every Filipino. Learn Python programming on our user-friendly website. Acquire essential skills through interactive lessons, practice exercises, and projects. Join a supportive community and start your journey to Python mastery at your own pace, all for free."

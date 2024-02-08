@@ -88,3 +88,28 @@ footer p{
 div h3{
     color: #3b5aa6;
 }
+
+.python{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
+/* Add this CSS for the bouncing animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to the element */
+#animatedP {
+    animation: bounce 1s infinite;
+}
